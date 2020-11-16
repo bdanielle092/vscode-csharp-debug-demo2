@@ -57,3 +57,13 @@ namespace DebuggingDemo
         }
     }
 }
+
+//For debugging most applications, you'll find the intergratedTerminal option to be the most helpful
+//You can also get a quick look at the values of all variables in the Locals window of your sidebar
+// Step Over: Execute the current line and move to the next line in the code.
+// Step Into: If paused on a line that will invoke a method, you can step into that method and continue debugging.
+// Step Out: If you've stepped into a method but want to return to where it was called from, you can step out of the current method.
+// Continue: Go to either the next breakpoint, or if there are no more breakpoints, continue executing the program normally.
+// Refresh: Start the program over again.
+// Stop: Stop the program
+//While in a breakpoint, you can also execute any C# code by typing into the Debug Console at the bottom of your editor. 
